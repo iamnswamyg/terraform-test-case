@@ -1,5 +1,5 @@
 module "a-module" {
-    source ="/Users/joaquin.fernandez/projects/personal/terraform-test/not-works-on-tf-0.12.13/modules/a-module"
+    source ="../modules/a-module"
     a_input ="A - Input"
 }
 terraform {
